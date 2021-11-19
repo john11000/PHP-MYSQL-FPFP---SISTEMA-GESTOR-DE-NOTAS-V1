@@ -1,0 +1,70 @@
+.paginacion {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	list-style: none;
+	border-radius: 0.25rem;
+
+}
+
+.T {
+	border: 1px solid;
+	box-shadow: 1px 1px 5px;
+	color: #000;
+}
+
+
+.form-group label {
+	color: rgb(0 123 255);
+}
+
+h1 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	opacity: .8;
+}
+
+.nav-item:hover{
+    animation: aparecer 1s;
+    border-bottom: 1px solid #0d6efd;
+    cursor: pointer;
+
+}
+
+
+*::-webkit-scrollbar{
+    background: #0d6efd;
+    width: 6px;
+    opacity: 0.1;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #e1e1e1c2;
+    border-radius: 20px;
+    
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #0d6dfda8;
+    
+    border-radius: 20px;
+}
+
+form {
+	width: 60%;
+	margin: auto;
+}
+
+
+@keyframes aparecer {
+    
+    from { opacity: 0.2; background: #0d6efd; color: rgb(255, 255, 255); border-radius: 25px;}
+    to { opacity: 1}
+    
+}
+
+
