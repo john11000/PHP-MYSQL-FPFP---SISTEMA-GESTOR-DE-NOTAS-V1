@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `estudiantes` (
 INSERT INTO `estudiantes` (`id`, `nombre1`, `nombre2`, `apellido1`, `apellido2`, `grado`, `curso`) VALUES
 (123, 'jhon', 'ass', 'Medina', 'Tovar', 'Octavo', 802),
 (456, 'homero', 'homex', 'Falla', 'garza', 'Decimo', 1001),
-(789, 'Ana', 'Maria', 'Arias', 'Atahualpa', 'Noveno', 902),
+(789, 'Ana', 'Maria', 'Arias', 'Atahualpa', 'Noveno', 902);
 
 
 -- --------------------------------------------------------
@@ -141,6 +141,3 @@ INSERT INTO `notas_estudiantes_materias` (`id_estudiante`, `id_materia`, `puntaj
 (1010115909, 123, '3.50');
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
